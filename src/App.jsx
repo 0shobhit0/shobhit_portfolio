@@ -175,14 +175,15 @@ function App() {
                   <div>
                     <p><ChevronRight className="inline mr-2 text-blue-500" /> <strong>Age:</strong> 25</p>
                     <p><ChevronRight className="inline mr-2 text-blue-500" /> <strong>Degree:</strong> B-Tech</p>
-                    <p>
+                    {/* <p>
     <ChevronRight className="inline mr-2 text-blue-500" /> 
     <strong>Email:</strong> 
     <br/>
+    
     <a href="mailto:shobhitasthana0@gmail.com" className="text-blue-500 hover:underline">
       shobhitasthana0@gmail.com
     </a>
-  </p>
+  </p> */}
                     <p><ChevronRight className="inline mr-2 text-blue-500" /> <strong>Freelance:</strong> Available</p>
                   </div>
                 </div>

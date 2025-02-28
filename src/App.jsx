@@ -304,19 +304,28 @@ function App() {
             </h2>
 
             <div className="grid md:grid-cols-3 gap-8">
-              <div className="group relative overflow-hidden rounded-lg">
-                <img
-                  src={Ecommerce}
-                  alt="Project 1"
-                  className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
-                  <div>
-                    <h3 className="text-xl font-bold mb-2">E-Commerce Platform</h3>
-                    <p className="text-gray-300">Full-stack e-commerce solution</p>
-                  </div>
-                </div>
-              </div>
+            <div className="group relative overflow-hidden rounded-lg">
+  <img
+    src={Ecommerce}
+    alt="Project 1"
+    className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
+  />
+  <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+    <div>
+      <h3 className="text-xl font-bold mb-2">E-Commerce Platform</h3>
+      <p className="text-gray-300">Full-stack e-commerce solution</p>
+      <a
+        href="https://github.com/0shobhit0/Restaurant-Management-Web-App" 
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mt-2 inline-block text-blue-400 hover:text-blue-500"
+      >
+        View on GitHub
+      </a>
+    </div>
+  </div>
+</div>
+
 
               <div className="group relative overflow-hidden rounded-lg">
                 <img
@@ -326,8 +335,16 @@ function App() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
                   <div>
-                    <h3 className="text-xl font-bold mb-2">Task Management</h3>
+                    <h3 className="text-xl font-bold mb-2">Docs Management</h3>
                     <p className="text-gray-300">Project management application</p>
+                    <a
+        href="https://github.com/0shobhit0/Docs" // Replace with your actual GitHub link
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mt-2 inline-block text-blue-400 hover:text-blue-500"
+      >
+        View on GitHub
+      </a>
                   </div>
                 </div>
               </div>
@@ -342,6 +359,14 @@ function App() {
                   <div>
                     <h3 className="text-xl font-bold mb-2">Analytics Dashboard</h3>
                     <p className="text-gray-300">Data visualization platform</p>
+                    <a
+        href="https://github.com/0shobhit0/Expense-Tracker" // Replace with your actual GitHub link
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mt-2 inline-block text-blue-400 hover:text-blue-500"
+      >
+        View on GitHub
+      </a>
                   </div>
                 </div>
               </div>
